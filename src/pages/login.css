@@ -1,0 +1,127 @@
+/* Login register */
+#top-border{
+    background-color: #f3d0b2;
+    height: 30px;
+    width: 100%;
+    border-bottom:1px solid #694545 ;
+    border-radius: 10px 10px 0px 0px;
+    padding: 3px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+
+}
+#in-border{
+    border: 1px solid #694545;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 0;
+    border-bottom:1px solid #694545 ;
+}
+
+  .iconcode{
+    width: 10px; 
+    height: auto;
+  }
+  .signin-txt{
+    color: #694545;
+    font-weight: 700;
+  }
+  .inform{
+    padding: 20px;
+  }
+  .inputfields{
+    border-radius: 20px solid #694545 !important;
+  }
+  .form-control {
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border:  1px solid #694545 !important;
+    border-radius: 10px !important;
+    transition: none !important;
+}
+ #label{
+    color: #694545;
+ }
+ .reg-button{
+    background-color: #4ade80;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+ }
+ .login-button{
+    background-color:#e9b384;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+ }
+ 
+
+ .reg-button-inlog{
+    background-color:#e9b384;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+
+ }
+
+ .login-button-inlog{
+    background-color:#95c2ce;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+ }
+ .linkbtn{
+    border:none ;
+    text-decoration: none;
+    color: #694545;
+    margin-left:80px;
+ }
+.linkbtn1{
+    border:none ;
+    text-decoration: none;
+    color: #694545;
+    margin-left:10px; 
+}
+ .navlinkbtn{
+    border: none;
+    text-decoration: none;
+    color:#093e4a; 
+    padding:4px;
+ }
+ /* Model  */
+ .modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: 1px solid  #694545 !important;
+    background:#f3d1b5 !important;
+    color: #694545 !important;
+}
+
+.modal-body{
+    background-color: #f4f1de !important;
+}
+.modal-footer{
+    background-color: #f4f1de !important;
+
+}
+.modelborder{
+    border:  1px solid #694545 !important;
+}
+
+@media screen and (max-width: 762px) {
+  .col-4 {
+    width: 86.333333% !important;
+}
+  
+}
